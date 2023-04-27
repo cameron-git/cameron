@@ -30,6 +30,7 @@ echo "theme = 'hugo-blog-awesome'" >> config.toml
 
 5. Host with github pages
    1. Publish local repo on GitHub
-   2. 
+   2. https://github.com/{username}/{repo-name}/settings/pages  
+Change source to "GitHub Actions" and select Hugo
 
 
