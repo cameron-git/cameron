@@ -22,7 +22,7 @@ git init
 
 3. Add a [theme](https://themes.gohugo.io/)
 ```sh
-git submodule add https://github.com/hugo-sid/hugo-blog-awesome.git themes/hugo-blog-awesome
+git clone https://github.com/hugo-sid/hugo-blog-awesome.git themes/hugo-blog-awesome
 echo "theme = 'hugo-blog-awesome'" >> config.toml
 ```
 
