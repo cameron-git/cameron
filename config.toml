@@ -1,0 +1,32 @@
+baseURL = ''
+languageCode = 'en-gb'
+defaultContentLanguage = "en-gb"
+title = 'Cameron Barker'
+theme = "hugo-blog-awesome"
+
+[params]
+  sitename = "Cameron Barker"
+  defaultColor = "dark" # set default color mode: dark or light
+  description = "My personal site!"
+  mainSections = ['posts']
+
+[params.author]
+  avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
+  # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
+  intro = "Cameron Barker"
+  name = "Cameron Barker"
+  # description = "My personal site!"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/cameron-git"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/cameron-barker-201157212/"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
